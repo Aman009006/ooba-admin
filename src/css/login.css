@@ -1,0 +1,115 @@
+
+.login__form{
+    max-width: 400px;
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 8px 8px 32px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 10%;
+    padding: 24px;
+}
+.login__title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 42px;
+    letter-spacing: 0.25px;
+    color: #FF3C6A;
+    margin-bottom: 24px;
+   
+}
+.login__label{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #2B2C3A;
+}
+.login__input{
+    max-width: 372px;
+    width: 100%;
+    height: 50px;
+    background: #FFFFFF;
+    padding: 13px 0;
+    border: none;
+   
+}
+.password{
+    max-width: 372px;
+    width: 100%;
+    margin: 0;
+}
+.line{
+    background: linear-gradient(90deg, #FF3C6A 0%, #FFD0DB 100.37%);
+    max-width: 372px;
+    width: 100%;
+    height: 1px;
+    margin: 0 ;
+    margin-bottom: 24px;
+}
+.login__checkbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+.checkbox{
+    margin: 0;
+    margin-right: 8px;
+}
+.checkbox__title{
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: rgba(43, 44, 58, 0.5);
+}
+input[type=checkbox] {
+    transform: scale(1.3);
+}
+.login__submit{
+    max-width: 372px;
+    width: 100%;
+    height: 53px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: #F8F8F8;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #888888;
+}
+input{
+    outline: none;
+    border: none;
+}
+
+.password {
+	position: relative;
+}
+.password-control {
+	position: absolute;
+	top: 14px;
+	right: 12px;
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+    background: url(/src/img/noview.svg) 0 0 no-repeat;
+}
+.password-control.view {
+    background: url(/src/img/view.svg) 0 0 no-repeat;
+}
+.pass__input{
+    height: 50px;
+}

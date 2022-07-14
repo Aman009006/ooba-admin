@@ -1,0 +1,21 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: 'Inter', sans-serif;
+}
+body{
+    background: #f0efefbb;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 10px;
+}
+.nav{
+    background: linear-gradient(111.81deg, #FF3C6A -1.02%, #FF3C6A -1.01%, #732C80 116.57%);
+    padding: 17px 0;
+}
+.active{
+    background: #FF3C6A !important;
+    color: white;
+}

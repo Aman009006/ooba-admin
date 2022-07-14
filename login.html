@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/login.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <title>Ooba</title>
+</head>
+<body>
+
+    <div class="nav">
+        <div class="container">
+            <img src="/src/img/logo.svg" alt="">
+        </div>
+    </div>
+
+    <form action="" class="login__form">
+
+        <h1 class="login__title">Вход</h1>
+        <label for="" class="login__label">Лицевой счет</label>
+        <input id="login-input" oninput="validate()" type="text" placeholder="Введите лицевой счет" class="login__input">
+        <div class="line"></div>
+        <div class="password">
+            <input class="login__label pass__input" oninput="validate()" type="password" id="password-input" placeholder="Введите пароль" name="password">
+            <a href="#" class="login__label password-control" onclick="return show_hide_password(this);"></a>
+        </div>
+        <div class="line"></div>
+        <div class="login__checkbox">
+            <input id="checkbox-input" type="checkbox" class="checkbox">
+            <p class="checkbox__title">Запомнить меня на этом устройстве</p>
+        </div>
+        <input id="submit" type="submit" value="Войти" class="login__submit">
+    </form>
+
+
+    <script src="./src/js/script.js"></script>
+</body>
+</html>

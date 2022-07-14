@@ -1,0 +1,114 @@
+.dot{
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background: #2B2C3A;
+}
+.bread__crums{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 170px;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.bread__crums p{
+    margin: 0;
+}
+.master__content{
+    display: flex;
+    justify-content: space-between;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.master__title{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: rgba(43, 44, 58, 0.5);
+}
+.master__titles{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #2B2C3A;
+}
+.master__about{
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 12px 15px;
+    max-width: 365px;
+    width: 100%;
+    margin: 0;
+}
+.master__title_about{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #2B2C3A;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #DDDDDD;
+    margin-bottom: 28px;
+}
+.master__about img{
+    margin-bottom: 16px;
+}
+.master__name{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.15px;
+    color: #2B2C3A;
+    margin-bottom: 6px;
+}
+.master__id{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: rgba(43, 44, 58, 0.7);
+}
+.master__orders{
+    background: #FFFFFF;
+    border-bottom: 1px solid rgba(43, 44, 58, 0.1);
+    max-width: 916px;
+    width: 100%;
+    padding: 12px 15px;
+    display: flex;
+    align-items: center;
+    justify-content:start;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.master__orders p{
+    margin: 0;
+}
+.orders__text{
+    max-width: 150px;
+    width: 100%;
+}
+.orders__texts{
+    max-width: 600px;
+    width: 100%;
+}
+.orders{
+    margin-left: 12px;
+    max-width: 916px;
+    width: 100%;
+}
+.master__orderes{
+    background: #FFFFFF;
+    max-width: 916px;
+    width: 100%;
+    padding: 12px 15px;
+    display: flex;
+    align-items: center;
+    justify-content:start;
+}
+a{
+    text-decoration: none;
+}

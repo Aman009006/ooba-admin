@@ -1,0 +1,93 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/main.css">
+    
+    <title>Ooba</title>
+</head>
+<body>
+
+    <div class="nav">
+        <div class="container">
+            <img src="/src/img/logo.svg" alt="">
+        </div>
+    </div>
+
+    <div class="ref">
+        <div class="container">
+            <h1 class="ref__title">Рефералы</h1>
+            <div class="ref__personality">
+                <div class="ref__person">
+                    <img src="./src/img/ava.svg" alt="">
+                    <div class="ref__names">
+                        <p class="ref__name">Ирсалиев Бакыт</p>
+                        <p class="ref__code">Referral ID: 32</p>
+                    </div>
+                </div>
+                <div class="ref__data">
+                    <div class="ref__param">
+                        <img src="./src/img/icon1.svg" alt="">
+                        <p class="param">Ставка:</p>
+                        <p class="param__data"> 0.2</p>
+                    </div>
+                    <div class="ref__param">
+                        <img src="./src/img/icon2.svg" alt="">
+                        <p class="param">Вес (кг):</p>
+                        <p class="param__data"> 0.2</p>
+                    </div>
+                    <div class="ref__param">
+                        <img src="./src/img/icon3.svg" alt="">
+                        <p class="param">Итого:</p>
+                        <p class="param__data"> 0.2</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ref__controllers">
+                <button id="all__user" onclick="allUsers()" class="ref__btn active">Все пользователи (60)</button>
+                <button id="ordered" onclick="allOrders()" class="ref__btn">Заказали (6)</button>
+            </div>
+
+            <div class="ref__users">
+                <p class="user__id ref__titles">User ID</p>
+                <p class="name__surname ref__titles">ФИО</p>
+                <p class="weight ref__titles">Вес (кг)</p>
+                <p class="total ref__titles">Итого (USD)</p>
+                <p class="action ref__titles">Действие</p>
+            </div>
+
+            <div id="all__users__content">
+
+                <a href="./master.html" class="ref__user">
+                    <p class="user__id ref__titles">60</p>
+                    <p class="name__surname ref__titles">Токтогалиев Шумкарбек</p>
+                    <p class="weight ref__titles">125</p>
+                    <p class="total ref__titles">25</p>
+                    <p class="action ref__titles action__title"><img class="action__img" src="/src/img/iconac.svg" alt="">Подробнее</p>
+                </a>
+               
+            </div>
+            <div id="all__ordered__content" class="none">
+
+                <a href="./master.html" class="ref__user">
+                    <p class="user__id ref__titles">60</p>
+                    <p class="name__surname ref__titles">Токтогалиев Aman</p>
+                    <p class="weight ref__titles">125</p>
+                    <p class="total ref__titles">25</p>
+                    <p class="action ref__titles action__title"><img class="action__img" src="/src/img/iconac.svg" alt="">Подробнее</p>
+                </a>
+              
+            </div>
+
+        </div>
+    </div>
+
+    <script src="./src/js/index.js"></script>
+</body>
+</html>

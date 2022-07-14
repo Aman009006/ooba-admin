@@ -1,0 +1,119 @@
+
+.ref__title{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #2B2C3A;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.ref__personality{
+    background: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ref__person{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+.ref__data{
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+.ref__param{
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    border-left: 1px solid #DDDDDD;
+    height: 94px;
+}
+.ref__names{
+    margin-left: 15px;
+}
+.ref__name{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.15px;
+    color: #2B2C3A;
+}
+.ref__code{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: rgba(43, 44, 58, 0.7);
+}
+.ref__controllers{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    border-top: 2px solid #DDDDDD;
+    margin-top: 20px;
+}
+.ref__btn{
+    padding: 12px 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    border: none;
+    border-radius: 6px;
+    margin-right: 20px;
+    background: #EBEBEB;
+}
+.ref__titles{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #2B2C3A;
+    margin: 0;
+    max-width: 150px;
+    width: 100%;
+}
+.ref__users{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FFFFFF;
+    border-bottom: 1px solid rgba(43, 44, 58, 0.1);
+    padding: 12px 15px;
+}
+.ref__user{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FFFFFF;
+    padding: 12px 15px;
+    text-decoration: none;
+}
+.user__id{
+    max-width: 150px;
+    width: 100%;
+}
+.name__surname{
+    max-width: 600px;
+    width: 100%; 
+}
+.action__title{
+    color:#3C96FF;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.action__img{
+    margin: 0;
+}
+.none{
+    display: none;
+}
+a{
+    text-decoration: none;
+}
